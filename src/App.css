@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+body{
+    overflow-x: hidden;
+    background: #ffffff url(https://img.freepik.com/premium-vector/email-campaign-concept-illustration-marketing-using-email-subscription-mail-newsletter-vector-flat-style_7737-2302.jpg) no-repeat center center;
+    background-size: contain;
+    background-attachment: fixed;
+    padding: 10vh 0;
+}
+
+.bodyofcards{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.singlecard{
+    width: 300px;
+    background-color: rgba(255, 255, 255, 80%);
+    text-align: center;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius:15px;
+    margin: 10px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 80%);
+    transition: all .3s;
+}
+
+.singlecard:hover{
+    background-color: rgba(108, 97, 218, 0.8);
+    color: white;
+}
